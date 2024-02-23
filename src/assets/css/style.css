@@ -29,12 +29,17 @@ h1, nav, main, footer {
   justify-content: center;
 }
 
-nav, footer {
+nav {
   flex-flow:row; 
+  align-items:center;
 }
 
-main {
+main, footer {
   flex-flow: column;
+}
+
+footer {
+  align-items:center;
 }
 
 /* spacing things out */

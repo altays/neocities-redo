@@ -8,9 +8,11 @@ order: 3
 
 {% pageHeading  "Sounds", "Selected musical projects including personal works, collaborations, and studies."%}
 
-<section>
+<section role="French Alexander works">
     <h3>As French Alexander</h3>
+    <ul role="list">
     {% for project in sounds.frenchAlexander %}
+    <li>
         <article>
             <h4>
                 <a href="{{project.link}}" title="Go to Bandcamp" aria-label="Go to Bandcamp (opens up in a new tab)" target="_blank">{{project.title}}</a>
@@ -19,13 +21,17 @@ order: 3
                 {{project.description}}
             </p>
         </article>
+    </li>
     {% endfor %}
+    </ul>
 </section>
 
-<section>
+<section role="Undergrad works">
     <h3>Undergrad Works</h3>
     <p>Recordings and works created during my studies at Towson University, 2012 - 2015.</p>
+    <ul role="list">
     {% for project in sounds.underGrad %}
+    <li>
         <article>
             <h4>
                 <a href="{{project.link}}" title="Go to Bandcamp" aria-label="Go to Bandcamp (opens up in a new tab)" target="_blank">{{project.title}}</a>
@@ -34,5 +40,7 @@ order: 3
                 {{project.description}}
             </p>
         </article>
+    </li>
     {% endfor %}
+    </ul>
 </section>
