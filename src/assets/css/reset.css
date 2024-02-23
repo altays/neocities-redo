@@ -7,12 +7,12 @@
   box-sizing: border-box;
 }
 
-/* Prevent font size inflation */
+/* Prevent font size inflation
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
+} */
 
 /* Remove default margin in favour of better control in authored CSS */
 body, h1, h2, h3, h4, p,
@@ -29,7 +29,6 @@ ol[role='list'] {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  line-height: 1.5;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -47,7 +46,7 @@ h3, h4 {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
-  color: currentColor;
+  /* color: currentColor; */
 }
 
 /* Make images easier to work with */

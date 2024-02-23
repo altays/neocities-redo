@@ -5,7 +5,7 @@ const currentDate = require("./src/_includes/shortcodes/currentDate");
 const postDate = require("./src/_includes/shortcodes/postDate");
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+    eleventyConfig.addPassthroughCopy("src/assets/css/");
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy({ "src/robots.txt": "/robots.txt" });
   
