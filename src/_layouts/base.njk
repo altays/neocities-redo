@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" media="all" href="{{ '/assets/css/style.css' | url }}">
+        <meta name="author" content="Alex Taylor">
+        
+        <title>{{site.title}}{% if title %} - {{title}} {% endif %} </title>
+        <meta name="description" content="{% if description %}{{description}}{% else %}{{site.description}}{% endif %}"/>
+        <meta name="keywords" content="{% if keywords %}{{keywords}}{% else %}{{site.keywords}}{% endif %}"/>
+    </head>
+    <body>
+        <header>
+        <h1><a href="/">Alex's Digital Garden</a></h1>
+        </header>
+         {% include "partials/_navigation.njk" %}
+        <main> 
+            {{content | safe}}
+        </main>
+    </body>
+    {% include "partials/_footer.njk" %}
+</html>
