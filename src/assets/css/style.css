@@ -15,9 +15,10 @@ body {
   color:var(--textcolor);
   Padding:0 10px;
   font-family: var(--system-ui);
+  font-weight:400;
 }
 
-h1,h2,h3{
+h1,h2,h3, h4{
   Line-height:1.2;
 }
 
@@ -48,6 +49,14 @@ footer > p, nav > a {
   padding: 0 .5em;
 }
 
+.blog-desc {
+  margin: .25em 0 0 0;
+}
+
+h4 {
+  margin: 0;
+}
+
 /* nav links  */
 
 .navlink, header > a {
@@ -59,4 +68,10 @@ a {
   color:darkblue;
 }
 
+/* card styling */
+
+.card {
+  margin: 1em 0 ;
+  padding: .5em 0;
+}
 

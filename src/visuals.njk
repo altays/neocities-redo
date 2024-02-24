@@ -1,0 +1,30 @@
+---
+layout: base
+title: "Visuals"
+description: This is the visuals home
+tags: page
+order: 3
+---
+
+{% pageHeading  "Visuals", "Notes and projects across different mediums"%}
+
+
+<section role="list">
+    <h3>Notes list</h3>
+    <p>Description of section</p>
+
+    <ul role="list">
+        {% for post in collections.post %}
+        <li>
+            <article class="card">
+                <h4>
+                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </h4>
+                <p class="blog-desc">
+                    {{post.data.description}}
+                </p>
+            </article>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

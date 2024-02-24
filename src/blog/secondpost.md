@@ -1,6 +1,6 @@
 ---
-title: Second Post
-description: This is my second post
+title: First Post
+description: This is my first post
 ---
 
 # Second Post
