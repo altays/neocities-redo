@@ -12,7 +12,7 @@ order: 3
     <h3>Collaborations</h3>
     <ul role="list">
     {% for project in programs.collaborations %}
-    <li>
+    <li class="card">
         <article>
             <h4>
                 <a href="{{project.link}}" title="Go to Github" aria-label="Go to Github (opens up in a new tab)" target="_blank">{{project.title}}</a>
@@ -30,7 +30,7 @@ order: 3
     <h3>Tools</h3>
     <ul role="list">
     {% for project in programs.tools %}
-    <li>
+    <li class="card">
         <article>
             <h4>
                 <a href="{{project.link}}" title="Go to Bandcamp" aria-label="Go to Bandcamp (opens up in a new tab)" target="_blank">{{project.title}}</a>
