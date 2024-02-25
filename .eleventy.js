@@ -7,7 +7,7 @@ const postDate = require("./src/_includes/shortcodes/postDate");
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/css/");
     eleventyConfig.addPassthroughCopy("src/assets/images");
-    eleventyConfig.addPassthroughCopy({ "src/robots.txt": "/robots.txt" });
+    // eleventyConfig.addPassthroughCopy({ "src/robots.txt": "/robots.txt" });
   
     eleventyConfig.addFilter("postDate",postDate);
     eleventyConfig.addShortcode("pageHeading",pageHeading);

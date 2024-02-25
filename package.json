@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "npx eleventy --serve",
+    "create": "npx eleventy --serve",
     "clear": "rm -r _site/*",
-    "start": "npm run clear && npm run start"
+    "start": "npm run clear && npm run create"
   },
   "keywords": [],
   "author": "",
