@@ -1,8 +1,8 @@
 ---
-layout: base
+layout: topicHub
 title: "Visuals"
 description: This is the visuals home
-tags: test
+tags: page
 order: 3
 ---
 
@@ -14,15 +14,14 @@ order: 3
     <p>Description of section</p>
 
     <ul role="list">
-        {% for post in collections.post %}
+        {% for thing in visuals.mediums %}
         <li>
-            <article class="card">
-                <h4>
-                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+            <article class="card card-block">
+                <h4 class="card-title">
+                    <a href="{{ thing.galleryUrl }}">{{ thing.title }}</a>
                 </h4>
-                <p class="blog-desc">
-                    {{post.data.description}}
-                </p>
+                <img class="card-image" src={{ thing.imgURL }}>
+                
             </article>
         </li>
         {% endfor %}

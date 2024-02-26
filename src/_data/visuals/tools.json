@@ -1,0 +1,5 @@
+[
+    {"title":"text2other","link":"https://github.com/altays/text2other","description":"A really inefficient way to databend files. I’ve learned more about databending since then and plan on revisiting this project."},
+    {"title":"Twitch to Max/MSP","link":"https://github.com/altays/Twitch-To-MaxMSP","description":"A Node.js script + Max/MSP patch that pulls messages from Twitch, analyzes the structure, and converts into MIDI notes."},
+    {"title":"Inclined Inclinations","link":"https://github.com/altays/inclined-inclinations","description":"A wonky creative prompt generator using Compromise.js. Imagine a series of hats with words and grammatical structures, then randomly picking from each hat."}
+]
