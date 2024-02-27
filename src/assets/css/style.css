@@ -104,7 +104,15 @@ a {
 
 }
 
+/* now section */
 
+.now-heading {
+ font-weight:1000;
+}
+
+.now-text {
+  margin:0 0 0 0;
+}
 
 /* background styling */
 

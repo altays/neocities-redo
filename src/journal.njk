@@ -1,0 +1,25 @@
+---
+layout: base
+title: "Journal"
+description: Random updates
+tags: draft
+order: 3
+---
+
+{% pageHeading  "Journal", "Log of things"%}
+
+<section>
+    <ul role="list">
+    {% for log in about.journal %}
+    <li >
+        <h3>
+            {{log.date}}
+        </h3>
+        <p>
+            {{log.entry}}
+        </p>
+        </article>
+    </li>
+    {% endfor %}
+    </ul>
+</section>

@@ -10,17 +10,15 @@ order: 3
 
 
 <section role="list">
-    <h3>Notes list</h3>
-    <p>Description of section</p>
 
     <ul role="list">
         {% for thing in visuals.mediums %}
         <li>
             <article class="card card-block">
-                <h4 class="card-title">
-                    <a href="{{ thing.galleryUrl }}">{{ thing.title }}</a>
-                </h4>
-                <img class="card-image" src={{ thing.imgURL }}>
+               
+                <a href="{{ thing.galleryUrl }}">
+                    <img class="card-image" src={{ thing.imgURL }} alt= {{ thing.title }}>
+                </a>
                 
             </article>
         </li>

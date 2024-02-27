@@ -1,14 +1,12 @@
 ---
-permalink: /sitemap.xml
+permalink: /sitemap.html
 eleventyExcludeFromCollections: true
 draft: true
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9%22%3E">
+<ul>
     {% for page in collections.all %}
-        <url>
-            <loc>{{page.url}}</loc>
-            <lastmod>{% currentDate date %}</lastmod>
-        </url>
+        <li>
+            <p>{{page.url}}</p>
+        </li>
     {% endfor %}
-</urlset>
+<ul>
