@@ -15,10 +15,10 @@
 body {
   margin:40px auto;
   Max-width:650px;
-  Line-height:1.6;
+  line-height:1.6;
   font-size:18px;
   color:var(--black);
-  Padding:0 10px;
+  padding:0 10px;
   font-family: var(--system-ui);
   font-weight:500;
   -ms-overflow-style: none;  
@@ -57,7 +57,7 @@ footer {
 /* spacing things out */
 
 footer > p, nav > a {
-  padding: 0 .5em;
+  padding: 0 .5rem 0 0;
 }
 
 .blog-desc {
@@ -66,6 +66,10 @@ footer > p, nav > a {
 
 h4 {
   margin: 0;
+}
+
+.intro-text{
+  margin:  1rem 0 0 0;
 }
 
 /* nav links  */
@@ -100,8 +104,14 @@ a {
   padding: 2px 16px;
 }
 
-.card-image {
 
+.card-list {
+  margin: 1rem 0 0 0;
+}
+
+.card-image {
+  display:flex;
+  justify-content: center;
 }
 
 /* now section */
@@ -133,20 +143,38 @@ html {
   top:0;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:400px) {
   .wallpaper {
     background-image:url("../images/cyano-low.jpg");
   }
+
+  .card-list-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
 
-@media screen and (min-width:800px) and (max-width:2000px) {
+@media screen and (min-width:400px) and (max-width:2000px) {
   .wallpaper {
     background-image:url("../images/cyano-med.jpg");
+  }
+
+  .card-list-layout {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
   }
 }
 
 @media screen and (min-width:2000px) {
   .wallpaper {
     background-image:url("../images/cyano-high.jpg");
+  }
+
+  .card-list-layout {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 10px;
   }
 }

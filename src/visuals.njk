@@ -9,18 +9,20 @@ order: 3
 {% pageHeading  "Visuals", "Notes and projects across different mediums"%}
 
 
-<section role="list">
+<section class="card-list">
 
-    <ul role="list">
+    <ul role="list" class="card-list-layout">
         {% for thing in visuals.mediums %}
-        <li>
-            <article class="card card-block">
-               
-                <a href="{{ thing.galleryUrl }}">
-                    <img class="card-image" src={{ thing.imgURL }} alt= {{ thing.title }}>
-                </a>
+        <li class="card-image ">   
+            <a href="{{ thing.galleryUrl }}">
+                <img 
                 
-            </article>
+                srcset= {{ thing.srcSet }} 
+                sizes="(max-width:800px) 300px, 400px, 650px"
+                src= {{thing.imgURLbig}}
+                alt= {{ thing.title }}
+                class="card-image" />
+            </a>
         </li>
         {% endfor %}
     </ul>

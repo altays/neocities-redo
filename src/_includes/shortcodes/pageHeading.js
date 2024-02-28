@@ -7,7 +7,7 @@
 const pageHeading = (title, subtitle) => {
 return `
     <h2>${title}</h1>
-        <p>${subtitle}</p>
+        <p class="intro-text">${subtitle}</p>
     `;
 };
 
