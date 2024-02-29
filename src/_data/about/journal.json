@@ -1,3 +1,3 @@
 [
-    {"year":"2024","date":"2/26/2024","entry":"The initial bits of this website are up and running! There's a lot more work to go, but I'm looking forward to having a spot to keep track of everything","image":""}
+    {"year":"2024","date":"2/29/2024","entry":"I'm working on the visuals section of the website. So far I have a series of cards that will link out to other pages. I'm setting it up so there will be one hub page that links out to others, with each page being dedicated to a specific medium. Not sure how I want to include notes / learnings... However, there may be something in 11ty that will let me set them up as a blog, then use tags to decide which page to render them too. We'll see!","image":""},{"year":"2024","date":"2/26/2024","entry":"The initial bits of this website are up and running! There's a lot more work to go, but I'm looking forward to having a spot to keep track of everything","image":""}
 ]

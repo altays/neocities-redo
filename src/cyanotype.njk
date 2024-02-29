@@ -1,0 +1,26 @@
+---
+layout: base
+title: "Cyanotype"
+description: This is the Cyanotype gallery
+order: 3
+tags: gallery
+---
+
+<!-- Cyanotype heading -->
+
+<h2>Cyanotypes</h2>
+
+<a class="hub-link" href="/visuals/">Go back to the visuals hub!</a>
+
+<!-- gallery here - turn into a layout or shortcode -->
+
+<div class="gallery-container">
+    {% for image in visuals.cyanotype %}
+        <div class="gallery-item">
+            <img src="{{ image.imgSrc }}" alt="{{ image.imgAlt }}" />
+            <p class="image-caption">{{ image.caption }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- Back to visuals home -->

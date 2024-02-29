@@ -1,6 +1,8 @@
 ---
 title: fourth Post
 description: This is my fourth post
+layout: blogLayout
+tags: post
 ---
 
 # Fourth Post

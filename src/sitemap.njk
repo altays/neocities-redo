@@ -1,12 +1,18 @@
 ---
 permalink: /sitemap.html
+layout: base
+title: "Sitemap"
+description: This is the home page
+tags: home
+order: 1
 eleventyExcludeFromCollections: true
-draft: true
 ---
-<ul>
+
+
+<ul role="list">
     {% for page in collections.all %}
         <li>
-            <p>{{page.url}}</p>
+            <a href="{{page.url}}">{{page.url}}</a>
         </li>
     {% endfor %}
 <ul>

@@ -14,7 +14,6 @@
 
 body {
   margin:40px auto;
-  Max-width:650px;
   line-height:1.6;
   font-size:18px;
   color:var(--black);
@@ -139,7 +138,22 @@ html {
   top:0;
 }
 
+.hub-link {
+  padding: 1em 0;
+}
+
+.image-caption {
+  margin:0;
+  padding-bottom: 1.5em;
+}
+
+
+
 @media screen and (max-width:400px) {
+  body {
+    max-width:300px;
+  }
+
   .wallpaper {
     background-image:url("../images/cyano-low.jpg");
   }
@@ -149,11 +163,61 @@ html {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
+
+  .gallery-container {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .gallery-item {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    padding: .25rem;
+  }
+
 }
 
-@media screen and (min-width:400px) and (max-width:2000px) {
+@media screen and (min-width:400px) and (max-width:768px) {
+  body {
+    max-width:300px;
+  }
+
   .wallpaper {
-    background-image:url("../images/cyano-med.jpg");
+    background-image:url("../images/backgrounds/cyano-low.jpg");
+  }
+
+  .card-list-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-container {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex: 0 1 auto;
+  }
+  
+  .gallery-item {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    padding: .25rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:2000px) {
+  body {
+    max-width:800px;
+  }
+
+  .wallpaper {
+    background-image:url("../images/backgrounds/cyano-med.jpg");
   }
 
   .card-list-layout {
@@ -161,16 +225,58 @@ html {
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+
+  .gallery-container {
+    display:flex;
+    flex-direction: row;
+    padding: 0rem;
+    gap: 0rem;
+    flex-wrap:wrap;
+  }
+  
+  .gallery-item {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    /* margin: 0rem; */
+    gap: 10px;
+    text-align:center;
+    flex: 1 1 auto;
+  }
 }
 
 @media screen and (min-width:2000px) {
+  body {
+    max-width:1000px;
+  }
+
   .wallpaper {
-    background-image:url("../images/cyano-high.jpg");
+    background-image:url("../images/backgrounds/cyano-high.jpg");
   }
 
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat (2, 1fr);
     gap: 10px;
+  }
+
+  .gallery-container {
+    display:flex;
+    flex-direction: row;
+    padding: 0rem;
+    gap: 0rem;
+    flex-wrap:wrap;
+  }
+  
+  .gallery-item {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    /* margin: 0rem; */
+    gap: 10px;
+    text-align:center;
+    flex: 1 1 auto;
   }
 }
