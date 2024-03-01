@@ -208,6 +208,7 @@ html {
     align-items:center;
     align-content:center;
     padding: .25rem;
+    width: 250px;
   }
 }
 
@@ -243,6 +244,7 @@ html {
     gap: 10px;
     text-align:center;
     flex: 1 1 auto;
+    width: 250px;
   }
 }
 
@@ -278,5 +280,6 @@ html {
     gap: 10px;
     text-align:center;
     flex: 1 1 auto;
+    width: 250px;
   }
 }
