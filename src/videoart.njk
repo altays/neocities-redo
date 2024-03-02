@@ -1,0 +1,27 @@
+---
+layout: base
+title: "Video Art"
+description: This is the video art home
+tags: gallery
+order: 3
+---
+
+{% pageHeading  "Video Art", "Video art pieces."%}
+
+<section role>
+    <h3>Collaborations</h3>
+    <ul role="list">
+    {% for project in programs.collaborations %}
+    <li class="card">
+        <article>
+            <h4>
+                <a href="{{project.link}}" title="Go to Github" aria-label="Go to Github (opens up in a new tab)" target="_blank">{{project.title}}</a>
+            </h4>
+            <p>
+                {{project.description}}
+            </p>
+        </article>
+    </li>
+    {% endfor %}
+    </ul>
+</section>z

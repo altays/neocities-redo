@@ -1,0 +1,4 @@
+[
+    {"title":"The Last Space Twitter Bot","link":"https://github.com/altays/TLS-Twitter-Bot","description":"A twitter bot created for a writing blog, The Last Space. Pulled a random story from Wordpress, found a random excerpt, and posted it to Twitter."},
+    {"title":"Scavengers Network Twitch Bot","link":"https://github.com/altays/twitch-scavbot","description":"A twitch bot created to help manage and interact streams on the Scavengers Network twitch channel."}
+]
