@@ -1,14 +1,14 @@
 [
-    {"imgSrc":"water1","imgAlt":"green and yellow watercolor","caption":""},
-    {"imgSrc":"water10","imgAlt":"green and yellow watercolor","caption":""},
-    {"imgSrc":"water11","imgAlt":"green and yellow watercolor","caption":""},
-    {"imgSrc":"water12","imgAlt":"green and yellow watercolor","caption":""},
-    {"imgSrc":"water2","imgAlt":"green, yellow, and brown watercolor","caption":""},
-    {"imgSrc":"water3","imgAlt":"blue, black and gold watercolor","caption":""},
-    {"imgSrc":"water4","imgAlt":"blue, black and gold watercolor","caption":""},
-    {"imgSrc":"water5","imgAlt":"orange and purple watercolor","caption":""},
-    {"imgSrc":"water6","imgAlt":"orange and purple watercolor","caption":""},
-    {"imgSrc":"water7","imgAlt":"orange and purple watercolor","caption":""},
-    {"imgSrc":"water8","imgAlt":"blue and purple watercolor","caption":""},
-    {"imgSrc":"water9","imgAlt":"blue and purple watercolor","caption":""}
+    {"imgSrc":"../assets/images/watercolor/water1.jpg","imgAlt":"green and yellow watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water10.jpg","imgAlt":"green and yellow watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water11.jpg","imgAlt":"green and yellow watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water12.jpg","imgAlt":"green and yellow watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water2.jpg","imgAlt":"green, yellow, and brown watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water3.jpg","imgAlt":"blue, black and gold watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water4.jpg","imgAlt":"blue, black and gold watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water5.jpg","imgAlt":"orange and purple watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water6.jpg","imgAlt":"orange and purple watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water7.jpg","imgAlt":"orange and purple watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water8.jpg","imgAlt":"blue and purple watercolor","caption":""},
+    {"imgSrc":"../assets/images/watercolor/water9.jpg","imgAlt":"blue and purple watercolor","caption":""}
 ]

@@ -1,10 +1,10 @@
 [
-    {"imgSrc":"glitch1","imgAlt":"glitched image of a dog","caption":"jpeg with body data glitched in audacity"},
-    {"imgSrc":"glitch2","imgAlt":"datamoshed still of a skyline","caption":"still from datamoshed video"},
-    {"imgSrc":"glitch3","imgAlt":"databent cyanotype","caption":"jpeg with body data glitched"},
-    {"imgSrc":"glitch5","imgAlt":"databent image of a bridge","caption":"gif with modified color table"},
-    {"imgSrc":"glitch6","imgAlt":"image of colorful lines","caption":"jpeg with modified huffman table"},
-    {"imgSrc":"glitch4","imgAlt":"databent cyanotype","caption":"jpeg with modified header data "},
-    {"imgSrc":"glitch7","imgAlt":"image of colorful lines","caption":"jpeg bent beyond all recognition"},
-    {"imgSrc":"glitch8","imgAlt":"image of colorful lines","caption":"jpeg with modified huffman tables"}
+    {"imgSrc":"../assets/images/glitch/glitch1.jpg","imgAlt":"glitched image of a dog","caption":"jpeg with body data glitched in audacity"},
+    {"imgSrc":"../assets/images/glitch/glitch2.jpg","imgAlt":"datamoshed still of a skyline","caption":"still from datamoshed video"},
+    {"imgSrc":"../assets/images/glitch/glitch3.jpg","imgAlt":"databent cyanotype","caption":"jpeg with body data glitched"},
+    {"imgSrc":"../assets/images/glitch/glitch5.jpg","imgAlt":"databent image of a bridge","caption":"gif with modified color table"},
+    {"imgSrc":"../assets/images/glitch/glitch6.jpg","imgAlt":"image of colorful lines","caption":"jpeg with modified huffman table"},
+    {"imgSrc":"../assets/images/glitch/glitch4.jpg","imgAlt":"databent cyanotype","caption":"jpeg with modified header data "},
+    {"imgSrc":"../assets/images/glitch/glitch7.jpg","imgAlt":"image of colorful lines","caption":"jpeg bent beyond all recognition"},
+    {"imgSrc":"../assets/images/glitch/glitch8.jpg","imgAlt":"image of colorful lines","caption":"jpeg with modified huffman tables"}
 ]

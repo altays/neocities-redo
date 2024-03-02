@@ -6,22 +6,21 @@ tags: gallery
 order: 3
 ---
 
-{% pageHeading  "Video Art", "Video art pieces."%}
+<h2>Video Art</h2>
 
 <section role>
-    <h3>Collaborations</h3>
     <ul role="list">
-    {% for project in programs.collaborations %}
-    <li class="card">
-        <article>
-            <h4>
-                <a href="{{project.link}}" title="Go to Github" aria-label="Go to Github (opens up in a new tab)" target="_blank">{{project.title}}</a>
-            </h4>
-            <p>
-                {{project.description}}
-            </p>
-        </article>
-    </li>
+    {% for project in visuals.videoart %}
+        <li class="card">
+            <article>
+                <h4>
+                    <a href="{{project.link}}" title="Go to Youtube" aria-label="Go to Youtube (opens up in a new tab)" target="_blank">{{project.title}}</a>
+                </h4>
+                <p>
+                    {{project.description}}
+                </p>
+            </article>
+        </li>
     {% endfor %}
     </ul>
-</section>z
+</section>
