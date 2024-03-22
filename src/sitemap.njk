@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 <ul role="list">
     {% for page in collections.all %}
         <li>
-            <a href="{{page.url}}">{{page.url}}</a>
+            <a href="{{page.url}}">{{ page.data.title }}</a>
         </li>
     {% endfor %}
 <ul>
