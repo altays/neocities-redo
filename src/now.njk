@@ -1,0 +1,27 @@
+---
+layout: base
+title: "Site Updates"
+description: Random updates
+tags: draft
+order: 3
+---
+
+<h2>Now</h2>
+
+
+// parse the json file for current / previous, and listening / watching / reading / gaming
+<section>
+    <ul role="list">
+    {% for log in about.siteupdates %}
+    <li >
+        <h3>
+            {{log.date}}
+        </h3>
+        <p>
+            {{log.entry}}
+        </p>
+        </article>
+    </li>
+    {% endfor %}
+    </ul>
+</section>

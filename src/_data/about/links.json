@@ -1,3 +1,6 @@
 [
-    {"name":"value","link":""}
+    {"category":"","name":"","link":"", "comment":""},
+    {"category":"Communities","name":"Dogbotic","link":"", "comment":"Sound design studio, interesting art workshops."},
+    {"category":"Communities","name":"Polyphase Portal","link":"", "comment":"Art classes ranging from esoteric to extravagant"},
+    {"category":"Communities","name":"The Scavengers Network","link":"", "comment":"Art classes ranging from esoteric to extravagant"}
 ]
