@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "npx eleventy --serve",
+    "new": "npx eleventy",
     "clear": "rm -r _site/*",
     "start": "npm run clear && npm run create",
     "neocities-list":"neocities list -a",
     "neocities-push":"neocities push _site",
-    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch index.html journal notes photography programming sounds videoart visuals watercolor blog sitemap.html"
+    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch index.html journal notes photography programming sounds videoart visuals watercolor blog sitemap.html",
+    "neocities-update":"npm run clear && npm run new && npm run neocities-clear && npm run neocities-push "
   },
   "keywords": [],
   "author": "Alex Taylor",
