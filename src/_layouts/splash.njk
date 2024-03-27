@@ -16,13 +16,11 @@
     </head>
     <body>
         <div class="wallpaper"></div>
-        <header>
-        <h1><a href="/main/" class="navlink">Alex's Garden</a></h1>
-        </header>
-         {% include "partials/_navigation.njk" %}
         <main> 
             {{content | safe}}
+                <a href="/main/">
+                    <img src="../assets/images/collage/coll1.JPG" alt="image for splash button" />
+                </a>
         </main>
     </body>
-    {% include "partials/_footer.njk" %}
 </html>

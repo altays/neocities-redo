@@ -13,7 +13,7 @@
 /* Base */
 
 body {
-  margin:40px auto;
+  margin:0px auto;
   line-height:1.6;
   font-size:18px;
   color:var(--black);
@@ -45,7 +45,7 @@ nav {
   align-items:center;
 }
 
-main, footer {
+main {
   flex-flow: column;
 }
 
@@ -152,6 +152,14 @@ html {
   body {
     max-width:300px;
   }
+  
+  footer {
+    flex-flow: column;
+  }
+
+  footer > p {
+    margin: 0;
+  }
 
   .wallpaper {
     background-image:url("../images/backgrounds/cyano-low.jpg");
@@ -182,6 +190,14 @@ html {
 @media screen and (min-width:400px) and (max-width:600px) {
   body {
     max-width:300px;
+  }
+
+  footer {
+    flex-flow: column;
+  }
+
+  footer > p {
+    margin: 0;
   }
 
   .wallpaper {
@@ -216,6 +232,14 @@ html {
     max-width:300px;
   }
 
+  footer {
+    flex-flow: column;
+  }
+
+  footer > p {
+    margin: 0;
+  }
+
   .wallpaper {
     background-image:url("../images/backgrounds/cyano-low.jpg");
   }
@@ -246,6 +270,14 @@ html {
 @media screen and (min-width:900px) and (max-width:2000px) {
   body {
     max-width:800px;
+  }
+
+  footer {
+    flex-flow: row;
+  }
+
+  footer > p {
+    margin: 0;
   }
 
   .wallpaper {
@@ -282,6 +314,14 @@ html {
 @media screen and (min-width:2000px) {
   body {
     max-width:1000px;
+  }
+
+  footer {
+    flex-flow: row;
+  }
+
+  footer > p {
+    margin: 0;
   }
 
   .wallpaper {
