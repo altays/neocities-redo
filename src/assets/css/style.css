@@ -53,6 +53,10 @@ footer {
   align-items:center;
 }
 
+.splash-body {
+  display:flex;
+}
+
 /* spacing things out */
 
 footer > p, nav > a {
