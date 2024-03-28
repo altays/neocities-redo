@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "npx eleventy --serve",
-    "new": "npx eleventy",
-    "clear": "rm -r _site/*",
+    "new": "npx eleventy && echo 'new complete!'",
+    "clear": "rm -r _site/* && echo 'local clear complete!'",
     "start": "npm run clear && npm run create",
-    "neocities-list":"neocities list -a",
-    "neocities-push":"neocities push _site",
-    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch index.html journal notes photography programming sounds videoart visuals watercolor blog sitemap.html",
+    "neocities-list":"neocities list -a && echo 'list complete!'",
+    "neocities-push":"neocities push _site && echo 'push complete!'",
+    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch index.html journal notes photography programming sounds videoart visuals watercolor blog sitemap.html && echo 'clear complete!'",
     "neocities-update":"npm run clear && npm run new && npm run neocities-clear && npm run neocities-push "
   },
   "keywords": [],

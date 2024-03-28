@@ -107,6 +107,7 @@ a {
 .card-image {
   display:flex;
   justify-content: center;
+  padding: 0px 0rem .5rem 0rem;
 }
 
 /* now section */
@@ -168,7 +169,7 @@ html {
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 0px;
   }
 
   .gallery-container {
@@ -207,7 +208,7 @@ html {
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 0px;
   }
 
   .gallery-container {
@@ -247,7 +248,7 @@ html {
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 0px;
   }
 
   .gallery-container {
@@ -287,7 +288,7 @@ html {
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    gap: 0px;
   }
 
   .gallery-container {
@@ -331,7 +332,7 @@ html {
   .card-list-layout {
     display: grid;
     grid-template-columns: repeat (2, 1fr);
-    gap: 10px;
+    gap: 0px;
   }
 
   .gallery-container {
