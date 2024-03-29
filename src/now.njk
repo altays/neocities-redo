@@ -8,20 +8,35 @@ order: 3
 
 <h2>Now</h2>
 
-
-// parse the json file for current / previous, and listening / watching / reading / gaming
 <section>
+    <h3>Listening</h3>
     <ul role="list">
-    {% for log in about.siteupdates %}
-    <li >
-        <h3>
-            {{log.date}}
-        </h3>
-        <p>
-            {{log.entry}}
-        </p>
-        </article>
+    {% for record in about.listening %}
+    <li>
+        {{record.text}}
     </li>
     {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h3>Reading</h3>
+    <ul role="list">
+    {% for record in about.reading %}
+    <li>
+        {{ record.text }}
+    </li>
+    {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h3>Watching</h3>
+    <ul role="list">
+            {% for record in about.watching %}
+            <li>
+                {{record.text}}
+            </li>
+        {% endfor %}
     </ul>
 </section>

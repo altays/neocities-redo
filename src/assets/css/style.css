@@ -57,6 +57,11 @@ footer {
   display:flex;
 }
 
+.paginate-container {
+  display:flex;
+  text-align:center;
+}
+
 /* spacing things out */
 
 footer > p, nav > a {
@@ -153,6 +158,10 @@ html {
   text-align:center;
 }
 
+.notes-home-link {
+  text-align:center;
+}
+
 @media screen and (max-width:400px) {
   body {
     max-width:300px;
@@ -188,6 +197,10 @@ html {
     align-items:center;
     align-content:center;
     padding: .25rem;
+  }
+
+  .paginate-container {
+    flex-direction:column;
   }
 
 }
@@ -230,11 +243,15 @@ html {
     padding: .25rem;
     width: 250px;
   }
+
+  .paginate-container {
+    flex-direction:column;
+  }
 }
 
 @media screen and (min-width:600px) and (max-width:900px) {
   body {
-    max-width:300px;
+    max-width:400px;
   }
 
   footer {
@@ -269,6 +286,10 @@ html {
     align-content:center;
     padding: .25rem;
     /* width: 400px; */
+  }
+
+  .paginate-container {
+    flex-direction:column;
   }
 }
 
@@ -314,6 +335,15 @@ html {
     flex: 1 1 auto;
     width: 250px;
   }
+
+  .paginate-container {
+    flex-direction:row;
+    justify-content: center;
+  }
+
+  .paginate-item {
+    padding: 0 .5rem;
+  }
 }
 
 @media screen and (min-width:2000px) {
@@ -357,5 +387,14 @@ html {
     text-align:center;
     flex: 1 1 auto;
     width: 250px;
+  }
+
+  .paginate-container {
+    flex-direction:row;
+    justify-content: center;
+  }
+
+  .paginate-item {
+    padding: 0 .5rem;
   }
 }

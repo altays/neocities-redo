@@ -11,7 +11,7 @@
     "start": "npm run clear && npm run create",
     "neocities-list":"neocities list -a && echo 'list complete!'",
     "neocities-push":"neocities push _site && echo 'push complete!'",
-    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch index.html journal notes photography programming sounds videoart visuals watercolor blog sitemap.html && echo 'clear complete!'",
+    "neocities-clear":"neocities delete 404.html assets collage cyanotype glitch journal notes photography programming sounds videoart visuals watercolor blog sitemap.html && echo 'clear complete!'",
     "neocities-update":"npm run clear && npm run new && npm run neocities-clear && npm run neocities-push "
   },
   "keywords": [],
